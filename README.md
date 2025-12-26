@@ -2,8 +2,6 @@
 
 An Electron desktop application that detects **USB and serial devices**, and **stores device information locally** using a JSON file.
 
----
-
 ## Features
 
 - Detects **USB devices** and **serial devices**  
@@ -16,14 +14,6 @@ An Electron desktop application that detects **USB and serial devices**, and **s
   - Notes
   - Last seen timestamp
 
----
-
-## Tech Stack
-
-
-
----
-
 ## Project Setup
 
 ### Prerequisites
@@ -32,10 +22,10 @@ An Electron desktop application that detects **USB and serial devices**, and **s
 
 ### Dependencies
 
-- **Electron**
-- **Node.js**
-- **serialport**
-- **usb**
+- Electron
+- Node.js
+- serialport
+- usb
 
 ### Install dependencies
 
@@ -50,4 +40,5 @@ An Electron desktop application that detects **USB and serial devices**, and **s
 Device data is stored in `devices.json`
 
 Path: `C:\Users\<USERNAME>\AppData\Roaming\Electron\devices.json`
+
 
