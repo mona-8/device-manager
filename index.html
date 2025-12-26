@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Device Manager</title>
+</head>
+<body>
+  <h2>Connected Serial / USB Devices</h2>
+
+  <button id="refresh">Refresh</button>
+
+<table border="1" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Port</th>
+      <th>VID</th>
+      <th>PID</th>
+      <th>Status</th>
+      <th>Name</th>
+      <th>Notes</th>
+      <th>Last Seen</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="device-table"></tbody>
+</table>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

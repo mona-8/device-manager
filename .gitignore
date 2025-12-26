@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Electron local user data
+devices.json
+
+# Temporary files
+*.tmp
+*.swp
